@@ -5,3 +5,7 @@ def parrot
   puts "Squawk!"
   "Squawk!"
 end
+
+def parrot(string)
+  phrase = parrot("Pretty bird!")
+end
